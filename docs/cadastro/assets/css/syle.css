@@ -76,6 +76,24 @@ body{
     color: #fff;
 }
 
+.login-button input{
+    border: none;
+    background-color: #6c63ff;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button input:hover{
+    background-color: #6b63fff1;
+}
+
+.login-button input a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}
+
 .form-header h1::after{
     content: '';
     display: block;
